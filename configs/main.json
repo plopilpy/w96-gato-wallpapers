@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port": 2002,
+        "corsPolicy": "permissive"
+    },
+    "repo": {
+        "root_dir": "./public",
+        "customUrlMappings": [
+            {
+                "url": "/$root",
+                "target": "./public"
+            }
+        ]
+    }
+}
