@@ -1,0 +1,17 @@
+`Release.json` is a file located at the root of each repository.
+Its intent is to describe the repository briefly.
+
+It contains the following fields:
+    name -> The friendly name of the repository
+    maintainers -> A list of maintainers which maintain this repository.
+                    Maintainers should be separated like so:
+                        Maintainer1 <Email or contact> | Maintainer2 <Email or contact>
+    id -> The ID to assign this repository
+
+Here is an example one you can use (if the example Release.json doesn't exist for some reason):
+
+{
+    "name": "My Repository",
+    "maintainers": "Some User <some_user@example.com>",
+    "id": "main"
+}

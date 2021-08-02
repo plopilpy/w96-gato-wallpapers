@@ -1,0 +1,15 @@
+.items>img {
+    vertical-align: middle;
+}
+
+.readme-box {
+    font-family: monospace;
+}
+
+.readme-box>.text {
+    background: wheat;
+    padding: 5px;
+    max-width: 50%;
+    margin-top: 1em;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,16 @@
+`public/` is the root of your Windows 96 packages repository.
+
+Users should be able to specify a channel. `main` is the default channel.
+
+The URL format for repositories is like so:
+    https://mywebsite.com/CHANNEL
+
+In the case of the main channel, it would be
+    https://mywebsite.com/main
+
+Channels don't need to be put at the root.
+    https://mywebsite.com/packages/main
+
+    is also a perfectly valid URL for PackMan to use.
+
+Channels could also be referred to as sub-repositories, since they're basically just a framework for multiple repositories on one host.

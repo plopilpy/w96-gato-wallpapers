@@ -1,0 +1,24 @@
+`Packages.json` is a file located at the root of each repository.
+It's intent is to be an index of every possible package that can be downloaded from this repository.
+
+Here is an annotated example of a Packages.json file.
+Note that // indicate a comment.
+
+{
+    "name": "sample-package", // The ID of this package.
+    "friendlyName": "Sample package", // The friendly name of the package.
+    "description": "This is a sample package.", // The short description for this package.
+    "author": "Sample user (https://example.com)", // The author of this package. The format is explicitly Author (website or contact)
+    "category": "other", // The category of this package. Available categories are: accessories, development, entertainment, libraries, social, other
+    "version": 1.0, // The version of this package. Bump this to trigger an update.
+    "feature_requirements": [], // The features that are required to run this package.
+    "min_os_version": 2.2776, // The minimum OS version that this package is compatible with
+    "max_os_version": 9999, // The maximum OS version that this package is compatible with
+    "depends": [], // The dependencies of this package. Simply specify the names (IDs) of packages to specify a dependency.
+                   // You can also do package-name:repoId to specifically target a package from a certain repository.
+    "iconFiles": {
+        "32x32": "$REPO_PATH$/dist/s/sample-package/icon32.png", // The 32x32 icon file for this package.
+        "16x16": "$REPO_PATH$/dist/s/sample-package/icon16.png" // The 16x16 icon file for this package.
+    },
+    "packageRoot": "$REPO_PATH$/dist/s/sample-package" // The distribution root for this package.
+}

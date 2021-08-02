@@ -1,0 +1,5 @@
+{
+    "icons": [
+        { "ext": [".zip"], "icon": "/assets/dirview/icons/zip.png" }
+    ]
+}

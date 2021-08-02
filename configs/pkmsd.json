@@ -9,6 +9,10 @@
             {
                 "url": "/$root",
                 "target": "./public"
+            },
+            {
+                "url": "/assets/dirview",
+                "target": "./www/dirview"
             }
         ]
     }

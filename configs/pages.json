@@ -1,0 +1,11 @@
+{
+    "dir_view": {
+        "root": "./www/dirview/",
+        "docPath": "./www/dirview/index.html",
+        "templates": {
+            "directory": "<img src=\"/assets/dirview/icons/folder.svg\" height=\"16\" width=\"16\"> <a class=\"directory\" href=\"%URL%\">%FRIENDLY_NAME%/</a><br>",
+            "file": "<img src=\"/assets/dirview/icons/generic.svg\" height=\"16\" width=\"16\"> <a class=\"file\" href=\"%URL%\">%FRIENDLY_NAME%</a><br>",
+            "readme": "<div class=\"readme-box\">From README.txt:<br><div class=\"text\">%TEXT%</div></div><br>"
+        }
+    }
+}

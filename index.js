@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const path = require('path');
-const maincfg = require('./configs/main.json');
+const maincfg = require('./configs/pkmsd.json');
 
 if(maincfg.server.corsPolicy == "permissive")
     app.use(cors());
@@ -17,6 +17,7 @@ for(let mp of maincfg.repo.customUrlMappings) {
     app.use(mp.url, express.static(mp.target));
 }
 
+app.use(require('./lib/www/dir-listing'));
 app.use('/', express.static(maincfg.repo.root_dir));
 
 app.listen(maincfg.server.port, ()=>{
