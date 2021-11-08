@@ -11,9 +11,9 @@
         "max_os_version": 9999,
         "depends": [],
         "iconFiles": {
-            "32x32": "$REPO_PATH$/dist/s/sample-package/icon32.png",
-            "16x16": "$REPO_PATH$/dist/s/sample-package/icon16.png"
+            "32x32": "$REPO_PATH$/dist/s/gato-wallpapers/icon32.png",
+            "16x16": "$REPO_PATH$/dist/s/gato-wallpapers/icon16.png"
         },
-        "packageRoot": "$REPO_PATH$/dist/s/sample-package"
+        "packageRoot": "$REPO_PATH$/dist/s/gato-wallpapers/"
     }
 ]
