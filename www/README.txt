@@ -1,1 +1,0 @@
-System WWW directory.
