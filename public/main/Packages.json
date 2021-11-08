@@ -1,9 +1,9 @@
 [
     {
-        "name": "sample-package",
-        "friendlyName": "Sample package",
-        "description": "This is a sample package.",
-        "author": "Sample user (https://example.com)",
+        "name": "gato-wallpapers",
+        "friendlyName": "Gato Wallpaper Pack",
+        "description": "A wallpaper pack consisting of various gatos.",
+        "author": "Plopilpy (https://github.com/plopilpy)",
         "category": "other",
         "version": 1.0,
         "feature_requirements": [],
