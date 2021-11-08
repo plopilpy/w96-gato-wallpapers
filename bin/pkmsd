@@ -1,7 +1,0 @@
-#!/bin/bash
-export CURRENT_DIR=$(realpath .)
-export P1=$(dirname $0)
-export PROG_DIR=$(realpath $P1/..)
-cd "$PROG_DIR"
-node index.js
-cd "$CURRENT_DIR"
